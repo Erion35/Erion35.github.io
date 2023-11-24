@@ -1,0 +1,71 @@
+{
+    "VCAP_SERVICES": {
+        "xsuaa": [
+            {
+                "label": "xsuaa",
+                "provider": null,
+                "plan": "application",
+                "name": "xsuaa-appl-ias-admin",
+                "tags": [
+                    "xsuaa"
+                ],
+                "instance_guid": "735bccfd-3292-40d1-8011-7374710f1d53",
+                "instance_name": "xsuaa-appl-ias-admin",
+                "binding_guid": "03f8c3a1-a99e-4710-81e1-76d6a522a12e",
+                "binding_name": null,
+                "credentials": {
+                    "tenantmode": "dedicated",
+                    "sburl": "https://internal-xsuaa.authentication.eu10.hana.ondemand.com",
+                    "subaccountid": "76ca4453-187b-4b00-a245-4d0b822ccd13",
+                    "credential-type": "binding-secret",
+                    "clientid": "sb-ias-xsuaa!t217698",
+                    "xsappname": "ias-xsuaa!t217698",
+                    "clientsecret": "03f8c3a1-a99e-4710-81e1-76d6a522a12e$f7oFIamWXKYWn3_8Jj57jVHkXRMGVyXXT0i396tqtXk=",
+                    "url": "https://thot-dev.authentication.eu10.hana.ondemand.com",
+                    "uaadomain": "authentication.eu10.hana.ondemand.com",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1NA0z3IhSiOIK4tmcVZL\nL+UuOEtf6mbiksp8sO7W/Cr8/0xUnL+kdtU9079LOos1fom95eOw1a16phKleQWh\n5eSOrigiv+jUFuMDBBogpZUFktKEiykx4dM4KsYGWJT493DgcNrjQ8w8v3Xs6bpI\ngGo/IOiF8rAEvKFV/3gy+Q49WsnubQRpyeUG3uHO+7fpAbLHSEhzbAz6oPT4+mS2\nM9b3yOUACi5A+NZUwmUC51swOuYAqINtQKd+oKW5Xsc49u3ijXOKvU0fTYYIJzIX\ngphlU1tuzKS59eWpF9xkXO0JpVSgbopwV63GATUPLegScDJAYTC/fGeYoXvxqAdn\nIwIDAQAB\n-----END PUBLIC KEY-----",
+                    "apiurl": "https://api.authentication.eu10.hana.ondemand.com",
+                    "identityzone": "thot-dev",
+                    "identityzoneid": "76ca4453-187b-4b00-a245-4d0b822ccd13",
+                    "tenantid": "76ca4453-187b-4b00-a245-4d0b822ccd13",
+                    "zoneid": "76ca4453-187b-4b00-a245-4d0b822ccd13"
+                },
+                "syslog_drain_url": null,
+                "volume_mounts": []
+            }
+        ],
+        "destination": [
+            {
+                "label": "destination",
+                "provider": null,
+                "plan": "lite",
+                "name": "dest-lite-ias-admin",
+                "tags": [
+                    "destination",
+                    "conn",
+                    "connsvc"
+                ],
+                "instance_guid": "7bfa6e0f-3b58-47f7-aecb-07cfca9bc218",
+                "instance_name": "dest-lite-ias-admin",
+                "binding_guid": "19debe7d-304b-4806-9c17-11901300fe80",
+                "binding_name": null,
+                "credentials": {
+                    "tenantmode": "dedicated",
+                    "clientid": "sb-clone7bfa6e0f3b5847f7aecb07cfca9bc218!b217698|destination-xsappname!b404",
+                    "credential-type": "binding-secret",
+                    "xsappname": "clone7bfa6e0f3b5847f7aecb07cfca9bc218!b217698|destination-xsappname!b404",
+                    "clientsecret": "19debe7d-304b-4806-9c17-11901300fe80$4X2za1AGo2fNDU_Hrl9jSkm8wbwCufduRD-6ued9G3U=",
+                    "uri": "https://destination-configuration.cfapps.eu10.hana.ondemand.com",
+                    "url": "https://thot-dev.authentication.eu10.hana.ondemand.com",
+                    "uaadomain": "authentication.eu10.hana.ondemand.com",
+                    "instanceid": "7bfa6e0f-3b58-47f7-aecb-07cfca9bc218",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1NA0z3IhSiOIK4tmcVZL\nL+UuOEtf6mbiksp8sO7W/Cr8/0xUnL+kdtU9079LOos1fom95eOw1a16phKleQWh\n5eSOrigiv+jUFuMDBBogpZUFktKEiykx4dM4KsYGWJT493DgcNrjQ8w8v3Xs6bpI\ngGo/IOiF8rAEvKFV/3gy+Q49WsnubQRpyeUG3uHO+7fpAbLHSEhzbAz6oPT4+mS2\nM9b3yOUACi5A+NZUwmUC51swOuYAqINtQKd+oKW5Xsc49u3ijXOKvU0fTYYIJzIX\ngphlU1tuzKS59eWpF9xkXO0JpVSgbopwV63GATUPLegScDJAYTC/fGeYoXvxqAdn\nIwIDAQAB\n-----END PUBLIC KEY-----",
+                    "identityzone": "thot-dev",
+                    "tenantid": "76ca4453-187b-4b00-a245-4d0b822ccd13"
+                },
+                "syslog_drain_url": null,
+                "volume_mounts": []
+            }
+        ]
+    }
+}
